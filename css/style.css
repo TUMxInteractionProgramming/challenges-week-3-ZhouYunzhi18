@@ -15,6 +15,7 @@
 
 body {
     background-color: #F5F5F5;
+    position: relative;   
 }
 
 /* #4 # sweat #uppercase buttons and w3w locations */
@@ -142,4 +143,125 @@ li img {
 .message.own {
     margin-left: 17.5%;
 }
+#locationdisplay {
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 520;
+    position: relative;
+    left: 5px;
+}
+#filled{
+    position: absolute;
+    right: -350px;
+    top: -8px;
+    display:inline;
+    align-self: center; 
+}
+#unfilled{
+    position: absolute;
+    right: -350px;
+    top: -8px;
+    display:inline;
+    align-self: center; 
+}
 
+/* section */
+html,body{
+    height:700px;
+}
+#channels{
+    position:absolute;   
+    left: 0;
+    width:40%;
+    height:100%;
+    
+    }
+#chat{
+    position: absolute;   
+    right: 0; 
+    width:60%;
+    height:100%;
+    
+}
+
+h1{
+    height:64px;
+    line-height: 64px;
+    font-family: "Arial",sans-serif;
+    font-size: large;
+    font-weight: 500;
+    word-spacing:3px;
+    text-indent: 4em;
+}
+h1 span{
+    position: relative;
+    right: 50px;
+}
+h1 img{
+    position: absolute;
+    left:16px;
+    top:8px;
+    }
+ul{
+    position: relative;
+    top: auto;
+    bottom:auto;
+    overflow: auto; 
+}
+.channel-meta{
+    vertical-align:middle;
+    display: inline;
+    float:right; 
+}
+#tab-bar{
+    height:67%;
+    display: flex;
+justify-content: space-between;
+    align-items: flex-end;  
+    }
+
+.message button{
+    float:right;
+    display:inline;
+    
+    right:8px;
+    position: relative;
+    bottom: 28px
+    }
+
+h3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#chat-bar{
+    position:absolute;
+    top: 420px;
+     
+}
+#emojis-button{
+    height: 50px;
+    width: 250%;
+    background-color: white;
+    border:0px;
+    bottom: -50px;
+    position: absolute;
+    text-align: left;
+}
+#emojis{
+    background-color: white;
+    width:300px;
+    height: 300px;
+    border: 1px;
+    border-color:black;
+    border-style: solid;
+    font-size:28px;
+    text-align: left;
+    overflow: auto;
+    left: 20px;
+    position: relative;
+}
+.message{
+  overflow:auto;
+}
